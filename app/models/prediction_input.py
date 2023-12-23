@@ -1,0 +1,67 @@
+from pydantic import BaseModel
+from typing import Optional
+import numpy as np
+
+class PredictionInput(BaseModel):
+    borough: Optional[str] = np.nan
+    block: Optional[int] = np.nan
+    lot: Optional[int] = np.nan
+    schooldist: Optional[float] = np.nan
+    council: Optional[float] = np.nan
+    zipcode: Optional[float] = np.nan
+    firecomp: Optional[str] = np.nan
+    policeprct: Optional[float] = np.nan
+    healthcenterdistrict: Optional[float] = np.nan
+    healtharea: Optional[float] = np.nan
+    sanitboro: Optional[float] = np.nan
+    sanitdistrict: Optional[float] = np.nan
+    sanitsub: Optional[str] = np.nan
+    zonedist1: Optional[str] = np.nan
+    zonedist2: Optional[str] = np.nan
+    zonedist3: Optional[str] = np.nan
+    zonedist4: Optional[str] = np.nan
+    overlay1: Optional[str] = np.nan
+    overlay2: Optional[str] = np.nan
+    spdist1: Optional[str] = np.nan
+    spdist2: Optional[str] = np.nan
+    spdist3: Optional[float] = np.nan
+    ltdheight: Optional[str] = np.nan
+    splitzone: Optional[str] = np.nan
+    landuse: Optional[float] = np.nan
+    easements: Optional[int] = np.nan
+    lotarea: Optional[int] = np.nan
+    bldgarea: Optional[int] = np.nan
+    comarea: Optional[int] = np.nan
+    resarea: Optional[int] = np.nan
+    officearea: Optional[int] = np.nan
+    retailarea: Optional[int] = np.nan
+    garagearea: Optional[int] = np.nan
+    strgearea: Optional[int] = np.nan
+    factryarea: Optional[int] = np.nan
+    otherarea: Optional[int] = np.nan
+    numbldgs: Optional[int] = np.nan
+    numfloors: Optional[float] = np.nan
+    unitstotal: Optional[int] = np.nan
+    lotfront: Optional[float] = np.nan
+    lotdepth: Optional[float] = np.nan
+    bldgfront: Optional[float] = np.nan
+    bldgdepth: Optional[float] = np.nan
+    ext: Optional[str] = np.nan
+    proxcode: Optional[float] = np.nan
+    irrlotcode: Optional[str] = np.nan
+    lottype: Optional[float] = np.nan
+    bsmtcode: Optional[float] = np.nan
+    assessland: Optional[int] = np.nan
+    assesstot: Optional[int] = np.nan
+    exemptland: Optional[int] = np.nan
+    exempttot: Optional[int] = np.nan
+    yearbuilt: Optional[int] = np.nan
+    yearalter1: Optional[int] = np.nan
+    yearalter2: Optional[int] = np.nan
+    histdist: Optional[str] = np.nan
+    landmark: Optional[str] = np.nan
+    builtfar: Optional[float] = np.nan
+    tract2010: Optional[int] = np.nan
+    xcoord: Optional[float] = np.nan
+    ycoord: Optional[float] = np.nan
+    zonemap: Optional[str] = np.nan
